@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>HEPL - DCC - Développement Côté Client | Navigation "push left JS"</title>
+    <meta name="description" content="Cours Javascript 2019-2020">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="stylesheet" href="css/min.style.css">
+    <meta name="theme-color" content="#fafafa">
+</head>
+
+<body class="container">
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.</p>
+<![endif]-->
+<nav id="navigation" role="navigation" class="navigation">
+    <a href="https://wesbos.com">Wes Bos</a>
+    <a href="https://www.pluralsight.com/paths/javascript">Pluralsight</a>
+    <a href="https://javascript.info/ebook">The JavaScript Language</a>
+    <a href="https://github.com/alsacreations/guidelines">guidelines</a>
+</nav>
+
+<main class="main" role="main">
+    <button class="nav-button" role="button" type="button" aria-label="navigation"></button>
+
+    <h1>Navigation "push left JS"</h1>
+    <p>Navigation mobile-first "Push Left" librement inspiré du code du livre <a href="https://www.amazon.fr/Responsive-design-patterns-Ethan-Marcotte/dp/2212117663">Responsive Design Patterns</a> de
+        <a href="https://ethanmarcotte.com">Ethan Marcotte</a></p>
+    <ul>
+        <li>JavaScript pour le comportement "touch" et la génération du bouton de menu</li>
+        <li>CSS pour les styles et les transitions</li>
+    </ul>
+    <p>Le principe général est celui-ci :</p>
+    <ul>
+        <li>Si JavaScript n'est pas activé ou si le navigateur est ancien, la navigation s'affiche simplement dans le flux, de façon accessible</li>
+        <li>Sur petit écran (maxi 544px), "main" s'affiche par dessus "navigation" et le bouton de navigation "nav-button" apparaît. <br>JavaScript s'occupe de l'action "touch" en ajoutant/retirant la classe ".is-opened" sur "main".</li>
+        <li>Sur grand écran (mini 545px), "navigation" est simplement placée dans le flux en haut de "main".</li>
+    </ul>
+</main>
+
+<script src="js/main.js"></script>
+</body>
+</html>
