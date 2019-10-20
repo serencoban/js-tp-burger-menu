@@ -1,5 +1,17 @@
 # JS-burger-menu
+> JS exercise given at HEPL
 
+* * *
+
+**JS-burger-menu** is an educational project, which will be used for `JS` courses.
+
+**Note:** the school where the course is given, the [HEPL](http://www.provincedeliege.be/hauteecole) from Liège, Belgium, is a french-speaking school. From this point, the instruction will be in french. Sorry.
+
+* * *
+
+> Lors de vos cours de *web*, vous allez découvrir le langage *JavaScript* et le mettre en pratique pour apprendre à rendre vos pages web interactives.  
+
+* * *
 Navigation mobile-first _Push Left_ librement inspiré du code du livre Responsive Design Patterns de Ethan Marcotte.
 
  * JavaScript pour le comportement _touch_ et la génération du bouton de menu
