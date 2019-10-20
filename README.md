@@ -12,7 +12,8 @@
 > Lors de vos cours de *web*, vous allez découvrir le langage *JavaScript* et le mettre en pratique pour apprendre à rendre vos pages web interactives.  
 
 * * *
-Navigation mobile-first _Push Left_ librement inspiré du code du livre Responsive Design Patterns de Ethan Marcotte.
+
+## Énoncé
 
  * JavaScript pour le comportement _touch_ et la génération du bouton de menu
  * CSS pour les styles et les transitions
@@ -24,6 +25,11 @@ Le principe général est celui-ci :
  * JavaScript s'occupe de l'action _touch_ en ajoutant/retirant la classe `.is-opened` sur `main`.
  * Sur grand écran (mini 545px), _navigation_ est simplement placée dans le flux en haut de `main`.
 
-\* Dans 1 premier temps, nous vous demandons de vérifier la présence des méthodes `querySelector` et `addEventListener`. Dans un deuxième temps, je vous invite à lire ceci : [polyfill.io](https://polyfill.io/v3/). 
+ * Dans 1 premier temps, nous vous demandons de vérifier la présence des méthodes `querySelector` et `addEventListener`. Dans un deuxième temps, je vous invite à lire ceci : [polyfill.io](https://polyfill.io/v3/). 
 
 ![readme](./readme.gif)
+
+## Source
+
+[Simple Nav](http://www.goetter.fr/nav/) de Raphaël Goetter.
+Navigation mobile-first _Push Left_ librement inspiré du code du livre Responsive Design Patterns de Ethan Marcotte.
