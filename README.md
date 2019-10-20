@@ -29,7 +29,7 @@ Le principe général est celui-ci :
 
 ![readme](./readme.gif)
 
-## Source
+## Sources
 
 [Simple Nav](http://www.goetter.fr/nav/) de Raphaël Goetter
 
