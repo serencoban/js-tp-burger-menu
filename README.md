@@ -31,5 +31,6 @@ Le principe général est celui-ci :
 
 ## Source
 
-[Simple Nav](http://www.goetter.fr/nav/) de Raphaël Goetter.
-Navigation mobile-first _Push Left_ librement inspiré du code du livre Responsive Design Patterns de Ethan Marcotte.
+[Simple Nav](http://www.goetter.fr/nav/) de Raphaël Goetter
+
+(Navigation mobile-first _Push Left_ librement inspiré du code du livre Responsive Design Patterns de Ethan Marcotte)
