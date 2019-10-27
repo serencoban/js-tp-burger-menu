@@ -528,3 +528,5 @@ bh_unicode_properties.cache
 GitHub.sublime-settings
 .idea/
 
+/dist/js/script.min.js
+/mix-manifest.json
