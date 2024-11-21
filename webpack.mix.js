@@ -1,4 +1,4 @@
-const mix = require('laravel-mix');
+//const mix = require('laravel-mix');
 
 /*
  |--------------------------------------------------------------------------
@@ -10,14 +10,14 @@ const mix = require('laravel-mix');
  | file for your application, as well as bundling up your JS files.
  |
  */
-
+/*
 mix
   .js('src/js/main.js', 'dist/js/script.min.js')
   .sass('src/sass/main.scss', 'dist/css/style.min.css')
   .options({
     processCssUrls: false, // Process/optimize relative stylesheet url()'s. Set to false, if you don't want them touched.
   });
-
+*/
 // Full API
 // mix.js(src, output);
 // mix.react(src, output); <-- Identical to mix.js(), but registers React Babel compilation.
@@ -55,3 +55,11 @@ mix
 //   terser: {}, // Terser-specific options. https://github.com/webpack-contrib/terser-webpack-plugin#options
 //   postCss: [] // Post-CSS options: https://github.com/postcss/postcss/blob/master/docs/plugins.md
 // });
+
+
+const burgerButton = document.querySelector('.nav-button');
+const navigationElt = document.getElementById('navigation');
+
+burgerButton.addEventListener('click', () => {
+
+});
